@@ -196,5 +196,5 @@ data.forEach((data) => {
 });
 
 let quote = document.getElementById("Quote");
-quote.innerHTML = "Quotes Application";
 quote.innerHTML = str;
+
