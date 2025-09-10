@@ -183,8 +183,8 @@ let data = [
 
 let str = '';
 data.forEach((data) => {
-    str += `<div class="col-9 d-flex" style="margin: 20px 0px;"> 
-                <div class="d-flex"><img src="${data.imgurl}" alt="image" class="" style="margin-right: 10px; width: 150px; height: 150px;"></div>
+    str += `<div class="col-10 d-flex" style="margin: 20px 0px;"> 
+                <div class="d-flex"><img src="${data.imgurl}" alt="image" style="margin-right: 10px; width: 150px; height: 150px;"></div>
                 <div class="frame">
                     <p style="padding: 10px;">Quote: </p>
                     <p class="dancing" style="padding: 0px 25px;">${data.quote}</p>
@@ -197,5 +197,6 @@ data.forEach((data) => {
 
 let quote = document.getElementById("Quote");
 quote.innerHTML = str;
+
 
 
