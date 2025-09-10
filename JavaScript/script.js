@@ -44,7 +44,7 @@ let data = [
     {
         quote: "When you reach the end of your rope, tie a knot in it and hang on.",
         author: "Franklin D. Roosevelt",
-        imgurl: "https://static.wikia.nocookie.net/sanctuary/images/5/5d/Official_1944_Campaign_portrait_of_Franklin_Delano_Roosevelt_by_Leon_Perskie.jpg/revision/latest?cb=20210421030848",
+        imgurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMLkZwIRobyIa2ZA8raVkZVKL39iBvIW8NHg&s",
         birthPlace: "Hyde Park, New York, USA"
     },
     {
@@ -197,4 +197,5 @@ data.forEach((data) => {
 
 let quote = document.getElementById("Quote");
 quote.innerHTML = str;
+
 
